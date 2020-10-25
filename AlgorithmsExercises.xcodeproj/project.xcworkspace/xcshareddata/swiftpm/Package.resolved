@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftAlgorithms",
+        "repositoryURL": "https://github.com/hugobgranja/SwiftAlgorithms",
+        "state": {
+          "branch": "main",
+          "revision": "1333e377e78088bc641ab12e3758b1b6e3bccc04",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
