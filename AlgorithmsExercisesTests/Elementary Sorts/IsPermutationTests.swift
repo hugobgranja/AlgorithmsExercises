@@ -7,7 +7,7 @@
 
 import XCTest
 
-class PermutationTests: XCTestCase {
+final class PermutationTests: XCTestCase {
 
     var isPermutation: IsPermutation!
     

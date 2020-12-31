@@ -7,7 +7,7 @@
 
 import XCTest
 
-class UnionFindMaximumTests: XCTestCase {
+final class UnionFindMaximumTests: XCTestCase {
     
     func testUFM() {
         let unionFind = try! UnionFindMaximum(length: 10)

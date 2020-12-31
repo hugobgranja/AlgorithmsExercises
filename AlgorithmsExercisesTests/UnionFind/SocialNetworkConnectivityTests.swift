@@ -7,7 +7,7 @@
 
 import XCTest
 
-class SocialNetworkConnectivityTests: XCTestCase {
+final class SocialNetworkConnectivityTests: XCTestCase {
     
     func testSNC() {
         let members = 10

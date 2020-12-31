@@ -7,7 +7,7 @@
 
 import XCTest
 
-class BitonicArrayTests: XCTestCase {
+final class BitonicArrayTests: XCTestCase {
 
     var bitonicArray: BitonicArray!
     

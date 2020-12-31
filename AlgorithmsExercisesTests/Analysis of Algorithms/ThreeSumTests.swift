@@ -7,7 +7,7 @@
 
 import XCTest
 
-class ThreeSumTests: XCTestCase {
+final class ThreeSumTests: XCTestCase {
 
     var threeSum: ThreeSum!
     

@@ -4,6 +4,10 @@
 //
 //  Created by hg on 12/10/2020.
 //
+//  Stack with max.
+//  Create a data structure that efficiently supports the stack operations (push and pop) and also return-the-maximum operation.
+//  Assume the elements are real numbers so that you can compare them.
+//
 
 import Foundation
 import SwiftAlgorithms

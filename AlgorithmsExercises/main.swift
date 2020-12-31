@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+let txnumbers = TaxicabNumbers()
+print(txnumbers.findV1(n: 100))
+

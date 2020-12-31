@@ -7,7 +7,7 @@
 
 import XCTest
 
-class DutchNationalFlagTests: XCTestCase {
+final class DutchNationalFlagTests: XCTestCase {
     
     var dnf: DutchNationalFlag!
     

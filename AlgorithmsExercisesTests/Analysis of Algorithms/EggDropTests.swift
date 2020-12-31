@@ -7,7 +7,7 @@
 
 import XCTest
 
-class EggDropTests: XCTestCase {
+final class EggDropTests: XCTestCase {
 
     var eggDrop: EggDrop!
     

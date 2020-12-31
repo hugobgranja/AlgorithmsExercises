@@ -4,6 +4,10 @@
 //
 //  Created by hg on 17/10/2020.
 //
+//  Permutation.
+//  Given two integer arrays of size n, design a subquadratic algorithm to determine whether one is a permutation of the other.
+//  That is, do they contain exactly the same entries but, possibly, in a different order.
+//
 
 import Foundation
 import SwiftAlgorithms

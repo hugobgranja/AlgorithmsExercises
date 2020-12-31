@@ -7,7 +7,7 @@
 
 import XCTest
 
-class StackMaxTests: XCTestCase {
+final class StackMaxTests: XCTestCase {
 
     var stack: StackMax<Int>!
     

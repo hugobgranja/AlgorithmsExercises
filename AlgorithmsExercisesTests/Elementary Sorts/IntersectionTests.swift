@@ -7,7 +7,7 @@
 
 import XCTest
 
-class IntersectionOfTwoSetsTests: XCTestCase {
+final class IntersectionOfTwoSetsTests: XCTestCase {
 
     var intersection: Intersection!
     

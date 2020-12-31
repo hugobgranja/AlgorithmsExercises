@@ -7,7 +7,7 @@
 
 import XCTest
 
-class SuccessorWithDeleteTests: XCTestCase {
+final class SuccessorWithDeleteTests: XCTestCase {
     
     func testSWD() {
         let successorWithDelete = try! SuccessorWithDelete(length: 10)
