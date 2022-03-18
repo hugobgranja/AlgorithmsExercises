@@ -10,12 +10,12 @@ import SwiftAlgorithms
 
 final class GraphDiameterTests: XCTestCase {
 
-    var graph: Graph!
+    var graph: UndirectedGraph!
     var sut: GraphDiameter!
     
     override func setUp() {
         super.setUp()
-        graph = Graph(vertices: 10)
+        graph = UndirectedGraph(vertices: 10)
         sut = GraphDiameter()
     }
 

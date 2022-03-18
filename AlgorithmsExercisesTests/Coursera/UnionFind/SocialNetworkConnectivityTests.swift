@@ -25,8 +25,8 @@ final class SocialNetworkConnectivityTests: XCTestCase {
             SNCTimestamp(date: "2020-07-12", userId1: 7, userId2: 9),
         ]
 
-        let snc = try! SocialNetworkConnectivity(members: members, logs: logs)
-        let date = try! snc.earliestAllConnected()
+        let snc = SocialNetworkConnectivity(members: members, logs: logs)
+        let date = snc.earliestAllConnected()
         XCTAssertEqual(date, "2020-06-04")
     }
 

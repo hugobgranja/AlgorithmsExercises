@@ -18,17 +18,17 @@ class SuccessorWithDelete {
     var unionFind: UnionFindMaximum
     var length: Int
     
-    init(length: Int) throws {
-        self.unionFind = try UnionFindMaximum(length: length + 1)
+    init(length: Int) {
+        self.unionFind = UnionFindMaximum(length: length + 1)
         self.length = length
     }
     
-    func remove(_ x: Int) throws {
-        try unionFind.union(x, x + 1)
+    func remove(_ x: Int) {
+        unionFind.union(x, x + 1)
     }
     
-    func successor(_ x: Int) throws -> Int {
-        let succ = try unionFind.findMaximum(x + 1)
+    func successor(_ x: Int) -> Int {
+        let succ = unionFind.findMaximum(x + 1)
         return succ >= length ? x : succ
     }
     

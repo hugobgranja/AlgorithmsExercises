@@ -25,8 +25,7 @@ class UnionFindMaximum: UnionFind {
     private var maximum: [Int]
     private var count: Int
     
-    required init(length: Int) throws {
-        if length <= 0 { throw Exception.invalidArgument }
+    required init(length: Int) {
         parent = [Int]()
         size = [Int]()
         maximum = [Int]()
@@ -40,9 +39,9 @@ class UnionFindMaximum: UnionFind {
         count = length
     }
     
-    func union(_ p: Int, _ q: Int) throws {
-        let i = try find(p)
-        let j = try find(q)
+    func union(_ p: Int, _ q: Int) {
+        let i = find(p)
+        let j = find(q)
         
         if i == j { return }
         
@@ -65,15 +64,13 @@ class UnionFindMaximum: UnionFind {
         count -= 1
     }
     
-    func connected(_ p: Int, _ q: Int) throws -> Bool {
-        let i = try find(p)
-        let j = try find(q)
+    func connected(_ p: Int, _ q: Int) -> Bool {
+        let i = find(p)
+        let j = find(q)
         return i == j
     }
     
-    func find(_ p: Int) throws -> Int {
-        try validate(p)
-        
+    func find(_ p: Int) -> Int {
         var i = p
         while i != parent[i] {
             i = parent[i]
@@ -89,19 +86,13 @@ class UnionFindMaximum: UnionFind {
         return i
     }
     
-    func findMaximum(_ p: Int) throws -> Int {
-        let root = try find(p)
+    func findMaximum(_ p: Int) -> Int {
+        let root = find(p)
         return maximum[root]
     }
     
     func components() -> Int {
         return count
-    }
-    
-    private func validate(_ p: Int) throws {
-        if p < 0 || p >= parent.count {
-            throw Exception.argumentOutOfRange
-        }
     }
     
 }

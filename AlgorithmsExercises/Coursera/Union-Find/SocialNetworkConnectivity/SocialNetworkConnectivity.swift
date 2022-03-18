@@ -18,28 +18,28 @@ class SocialNetworkConnectivity {
     let logs: [SNCTimestamp]
     let unionFind: WeightedQuickUnionUF
     
-    init(members: Int, logs: [SNCTimestamp]) throws {
+    init(members: Int, logs: [SNCTimestamp]) {
         self.members = members
         self.logs = logs
-        self.unionFind = try WeightedQuickUnionUF(length: members)
+        self.unionFind = WeightedQuickUnionUF(length: members)
     }
     
-    func earliestAllConnected() throws -> String? {
+    func earliestAllConnected() -> String? {
         for log in logs {
-            try unionFind.union(log.userId1, log.userId2)
-            if try isEveryMemberConnected() { return log.date }
+            unionFind.union(log.userId1, log.userId2)
+            if isEveryMemberConnected() { return log.date }
         }
         
         return nil
     }
     
-    private func isEveryMemberConnected() throws -> Bool {
+    private func isEveryMemberConnected() -> Bool {
         if members < 2 { return true }
         
         var isConnected = true
         
         for i in 0..<members - 1 where isConnected {
-            isConnected = try unionFind.connected(i, i + 1) && isConnected
+            isConnected = unionFind.connected(i, i + 1) && isConnected
         }
         
         return isConnected

@@ -10,17 +10,17 @@ import XCTest
 final class SuccessorWithDeleteTests: XCTestCase {
     
     func testSWD() {
-        let successorWithDelete = try! SuccessorWithDelete(length: 10)
-        try! successorWithDelete.remove(8)
-        var succ = try! successorWithDelete.successor(7)
+        let successorWithDelete = SuccessorWithDelete(length: 10)
+        successorWithDelete.remove(8)
+        var succ = successorWithDelete.successor(7)
         XCTAssertEqual(succ, 9)
-        try! successorWithDelete.remove(7)
-        succ = try! successorWithDelete.successor(6)
+        successorWithDelete.remove(7)
+        succ = successorWithDelete.successor(6)
         XCTAssertEqual(succ, 9)
-        try! successorWithDelete.remove(9)
-        succ = try! successorWithDelete.successor(7)
+        successorWithDelete.remove(9)
+        succ = successorWithDelete.successor(7)
         XCTAssertEqual(succ, 7)
-        succ = try! successorWithDelete.successor(2)
+        succ = successorWithDelete.successor(2)
         XCTAssertEqual(succ, 3)
     }
 

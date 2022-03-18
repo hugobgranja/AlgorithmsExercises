@@ -10,12 +10,12 @@ import SwiftAlgorithms
 
 final class GraphCenterTests: XCTestCase {
 
-    var graph: Graph!
+    var graph: UndirectedGraph!
     var sut: GraphCenter!
     
     override func setUp() {
         super.setUp()
-        graph = Graph(vertices: 10)
+        graph = UndirectedGraph(vertices: 10)
         sut = GraphCenter(diameter: GraphDiameter())
     }
 
