@@ -67,7 +67,7 @@ final class GeneralizedQueueTests: XCTestCase {
     }
     
     func testSelect() {
-        addTestValues()
+        addTestData()
         
         let expectation = [5,2,10,4,12,0]
         
@@ -78,7 +78,7 @@ final class GeneralizedQueueTests: XCTestCase {
     }
     
     func testRemove() {
-        addTestValues()
+        addTestData()
         
         let expectation = [5,2,10,4,0]
         
@@ -93,7 +93,7 @@ final class GeneralizedQueueTests: XCTestCase {
 
 extension GeneralizedQueueTests {
     
-    private func addTestValues() {
+    private func addTestData() {
         queue.enqueue(5)
         queue.enqueue(2)
         queue.enqueue(10)

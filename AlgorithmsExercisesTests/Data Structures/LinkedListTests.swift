@@ -34,13 +34,13 @@ class LinkedListTests: XCTestCase {
     }
     
     func testAppendArray() {
-        addTestValues()
+        addTestData()
         sut.append([6,5,9])
         XCTAssertEqual(sut.asArray(), [1,5,0,6,5,9])
     }
     
     func testAppendLinkedList() {
-        addTestValues()
+        addTestData()
         let other = LinkedList<Int>()
         other.append([6,5,9])
         sut.append(other)
@@ -48,7 +48,7 @@ class LinkedListTests: XCTestCase {
     }
     
     func testAppendEmptyLinkedList() {
-        addTestValues()
+        addTestData()
         let other = LinkedList<Int>()
         sut.append(other)
         XCTAssertEqual(sut.asArray(), [1,5,0])
@@ -78,12 +78,12 @@ class LinkedListTests: XCTestCase {
     }
     
     func testMid() {
-        addTestValues()
+        addTestData()
         XCTAssertEqual(sut.mid()?.element, 5)
     }
     
     func testAsArray() {
-        addTestValues()
+        addTestData()
         XCTAssertEqual(sut.asArray(), [1,5,0])
     }
     
@@ -95,7 +95,7 @@ class LinkedListTests: XCTestCase {
 
 extension LinkedListTests {
     
-    private func addTestValues() {
+    private func addTestData() {
         sut.append(1)
         sut.append(5)
         sut.append(0)

@@ -21,18 +21,24 @@
 		B94AC6A527DCE010002AED63 /* DAGHamiltonianpathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6A427DCE010002AED63 /* DAGHamiltonianpathTests.swift */; };
 		B94AC6A727DCF5A3002AED63 /* ReachableVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6A627DCF5A3002AED63 /* ReachableVertex.swift */; };
 		B94AC6A827DCF5A3002AED63 /* ReachableVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6A627DCF5A3002AED63 /* ReachableVertex.swift */; };
-		B94AC6AA27DD059D002AED63 /* ReachableVertexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6A927DD059D002AED63 /* ReachableVertexTests.swift */; };
 		B94AC6AB27DD059D002AED63 /* ReachableVertexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6A927DD059D002AED63 /* ReachableVertexTests.swift */; };
 		B94AC6AE27E3B2E9002AED63 /* BottleneckMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6AD27E3B2E9002AED63 /* BottleneckMST.swift */; };
 		B94AC6AF27E3B2E9002AED63 /* BottleneckMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6AD27E3B2E9002AED63 /* BottleneckMST.swift */; };
 		B94AC6B127E3DBAD002AED63 /* IsEdgeInMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B027E3DBAD002AED63 /* IsEdgeInMST.swift */; };
 		B94AC6B227E3DBAD002AED63 /* IsEdgeInMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B027E3DBAD002AED63 /* IsEdgeInMST.swift */; };
-		B94AC6B527E3F43E002AED63 /* IsEdgeInMSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B427E3F43E002AED63 /* IsEdgeInMSTTests.swift */; };
 		B94AC6B627E3F43E002AED63 /* IsEdgeInMSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B427E3F43E002AED63 /* IsEdgeInMSTTests.swift */; };
 		B94AC6B827E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B727E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift */; };
 		B94AC6B927E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B727E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift */; };
-		B94AC6BB27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6BA27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift */; };
 		B94AC6BC27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6BA27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift */; };
+		B978D1A727EA110F003C54FC /* MonotonicSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1A627EA110F003C54FC /* MonotonicSP.swift */; };
+		B978D1A827EA13E8003C54FC /* MonotonicSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1A627EA110F003C54FC /* MonotonicSP.swift */; };
+		B978D1AB27EA1585003C54FC /* MonotonicSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1AA27EA1585003C54FC /* MonotonicSPTests.swift */; };
+		B978D1AD27EA52A8003C54FC /* SecondSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1AC27EA52A8003C54FC /* SecondSP.swift */; };
+		B978D1AF27EA5EEA003C54FC /* SecondSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1AE27EA5EEA003C54FC /* SecondSPTests.swift */; };
+		B978D1B027EA5F63003C54FC /* SecondSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1AC27EA52A8003C54FC /* SecondSP.swift */; };
+		B978D1B227EB8D9A003C54FC /* SkippableEdgeSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1B127EB8D9A003C54FC /* SkippableEdgeSP.swift */; };
+		B978D1B427EBBBD7003C54FC /* SkippableEdgeSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1B327EBBBD7003C54FC /* SkippableEdgeSPTests.swift */; };
+		B978D1B527EBBCCC003C54FC /* SkippableEdgeSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1B127EB8D9A003C54FC /* SkippableEdgeSP.swift */; };
 		B9FE29DC27BC7FAD007D5806 /* IsStringUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE29DB27BC7FAD007D5806 /* IsStringUnique.swift */; };
 		B9FE29E027BD73EF007D5806 /* IsStringUniqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE29DF27BD73EF007D5806 /* IsStringUniqueTests.swift */; };
 		B9FE29E127BD73FE007D5806 /* IsStringUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE29DB27BC7FAD007D5806 /* IsStringUnique.swift */; };
@@ -153,6 +159,12 @@
 		B94AC6B427E3F43E002AED63 /* IsEdgeInMSTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsEdgeInMSTTests.swift; sourceTree = "<group>"; };
 		B94AC6B727E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinWeightFeedbackEdgeSet.swift; sourceTree = "<group>"; };
 		B94AC6BA27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinWeightFeedbackEdgeSetTests.swift; sourceTree = "<group>"; };
+		B978D1A627EA110F003C54FC /* MonotonicSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicSP.swift; sourceTree = "<group>"; };
+		B978D1AA27EA1585003C54FC /* MonotonicSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicSPTests.swift; sourceTree = "<group>"; };
+		B978D1AC27EA52A8003C54FC /* SecondSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSP.swift; sourceTree = "<group>"; };
+		B978D1AE27EA5EEA003C54FC /* SecondSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSPTests.swift; sourceTree = "<group>"; };
+		B978D1B127EB8D9A003C54FC /* SkippableEdgeSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkippableEdgeSP.swift; sourceTree = "<group>"; };
+		B978D1B327EBBBD7003C54FC /* SkippableEdgeSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkippableEdgeSPTests.swift; sourceTree = "<group>"; };
 		B9FE29D527B6CB56007D5806 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9FE29DB27BC7FAD007D5806 /* IsStringUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStringUnique.swift; sourceTree = "<group>"; };
 		B9FE29DF27BD73EF007D5806 /* IsStringUniqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStringUniqueTests.swift; sourceTree = "<group>"; };
@@ -295,6 +307,26 @@
 			path = "Minimum Spanning Trees";
 			sourceTree = "<group>";
 		};
+		B978D1A527EA10F1003C54FC /* Shortest Paths */ = {
+			isa = PBXGroup;
+			children = (
+				B978D1A627EA110F003C54FC /* MonotonicSP.swift */,
+				B978D1AC27EA52A8003C54FC /* SecondSP.swift */,
+				B978D1B127EB8D9A003C54FC /* SkippableEdgeSP.swift */,
+			);
+			path = "Shortest Paths";
+			sourceTree = "<group>";
+		};
+		B978D1A927EA1573003C54FC /* Shortest Paths */ = {
+			isa = PBXGroup;
+			children = (
+				B978D1AA27EA1585003C54FC /* MonotonicSPTests.swift */,
+				B978D1AE27EA5EEA003C54FC /* SecondSPTests.swift */,
+				B978D1B327EBBBD7003C54FC /* SkippableEdgeSPTests.swift */,
+			);
+			path = "Shortest Paths";
+			sourceTree = "<group>";
+		};
 		B9FE29D627B6CCCA007D5806 /* Coursera */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +340,7 @@
 				B94AC6AC27E3B2DA002AED63 /* Minimum Spanning Trees */,
 				C757DB452596BD240023D28D /* Priority Queues */,
 				C74B4C242558525900F0F135 /* Quicksort */,
+				B978D1A527EA10F1003C54FC /* Shortest Paths */,
 				C7BD416F2533B67E00E43F96 /* Stacks and Queues */,
 				B94AC68E27D4CA46002AED63 /* Undirected Graphs */,
 				C7BD416E2533B67000E43F96 /* Union-Find */,
@@ -328,6 +361,7 @@
 				B94AC6B327E3F420002AED63 /* Minimum Spanning Trees */,
 				C757DB462596BD2E0023D28D /* Priority Queues */,
 				C74B4D3D2559C96900F0F135 /* Quicksort */,
+				B978D1A927EA1573003C54FC /* Shortest Paths */,
 				C7BD42082534D12B00E43F96 /* Stacks and Queues */,
 				B94AC69127D4DE24002AED63 /* Undirected Graphs */,
 				C7BD422A2534E47900E43F96 /* UnionFind */,
@@ -790,6 +824,7 @@
 				C7BD4481253B6E8F00E43F96 /* IsPermutation.swift in Sources */,
 				C74B50D32561F2D200F0F135 /* SelectionTwoSortedArrays.swift in Sources */,
 				C7BD420F2534D26200E43F96 /* StackMax.swift in Sources */,
+				B978D1A827EA13E8003C54FC /* MonotonicSP.swift in Sources */,
 				C7BD44A3253C684300E43F96 /* ThreeSum.swift in Sources */,
 				C7BD42332534E65300E43F96 /* UnionFindMaximum.swift in Sources */,
 				C72C0B7825E2BA45008CD181 /* GeneralizedQueueTests.swift in Sources */,
@@ -798,6 +833,7 @@
 				C7BD42202534E08100E43F96 /* SNCTimestamp.swift in Sources */,
 				C7BD44AE253C773400E43F96 /* BitonicArrayTests.swift in Sources */,
 				C7BD4492253B872F00E43F96 /* DutchNationalFlagTests.swift in Sources */,
+				B978D1AB27EA1585003C54FC /* MonotonicSPTests.swift in Sources */,
 				C7BD423A2534E72500E43F96 /* SuccessorWithDeleteTests.swift in Sources */,
 				C7D2AC422606ACB80049D86C /* FourSum.swift in Sources */,
 				C732CD582598296B0080C9A7 /* RandomizedPriorityQueue.swift in Sources */,
@@ -807,6 +843,7 @@
 				C72C0B6025E1DD63008CD181 /* DocumentSearchTests.swift in Sources */,
 				C757DB42258EB6F60023D28D /* DecimalDominants.swift in Sources */,
 				B94AC6A027DBF037002AED63 /* ShortestDirectedCycle.swift in Sources */,
+				B978D1B027EA5F63003C54FC /* SecondSP.swift in Sources */,
 				B94AC6B927E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift in Sources */,
 				B94AC6A827DCF5A3002AED63 /* ReachableVertex.swift in Sources */,
 				B94AC69F27DBEFEB002AED63 /* ShortestDirectedCycleTests.swift in Sources */,
@@ -821,6 +858,7 @@
 				C7D984E2254D918000D43DAC /* CountingInversionsTests.swift in Sources */,
 				B9FE29E827BDAFDF007D5806 /* LinkedListPartitionTests.swift in Sources */,
 				C74B4D442559C9A200F0F135 /* NutsAndBolts.swift in Sources */,
+				B978D1AF27EA5EEA003C54FC /* SecondSPTests.swift in Sources */,
 				C72C0B6E25E1F236008CD181 /* GeneralizedQueue.swift in Sources */,
 				C7BD421D2534E04100E43F96 /* SocialNetworkConnectivityTests.swift in Sources */,
 				C7BD420A2534D13300E43F96 /* StackMaxTests.swift in Sources */,
@@ -831,9 +869,11 @@
 				B9FE29E127BD73FE007D5806 /* IsStringUnique.swift in Sources */,
 				C732CD6325990FC70080C9A7 /* TaxicabNumbersTests.swift in Sources */,
 				C7849563259FAC5600440274 /* BSTInorderConstantSpace.swift in Sources */,
+				B978D1B527EBBCCC003C54FC /* SkippableEdgeSP.swift in Sources */,
 				C7BD4475253B5EA400E43F96 /* IntersectionTests.swift in Sources */,
 				C7849556259F915900440274 /* CheckBST.swift in Sources */,
 				B9FE29EC27BDB2D3007D5806 /* LinkedListTests.swift in Sources */,
+				B978D1B427EBBBD7003C54FC /* SkippableEdgeSPTests.swift in Sources */,
 				C745FD432575531C00A6251D /* SelectionTwoSortedArraysV1Tests.swift in Sources */,
 				B94AC6AF27E3B2E9002AED63 /* BottleneckMST.swift in Sources */,
 			);
@@ -847,12 +887,13 @@
 				C77523C42587F81A004145FF /* DecimalDominants.swift in Sources */,
 				C72C0B6B25E1F1FE008CD181 /* GeneralizedQueue.swift in Sources */,
 				B94AC6A727DCF5A3002AED63 /* ReachableVertex.swift in Sources */,
+				B978D1B227EB8D9A003C54FC /* SkippableEdgeSP.swift in Sources */,
 				C74F26DA2528ECB900AFCFF1 /* UnionFindMaximum.swift in Sources */,
 				C74F26CE2528DC5300AFCFF1 /* SocialNetworkConnectivity.swift in Sources */,
 				C7BD449B253B962300E43F96 /* ThreeSum.swift in Sources */,
 				C7D984F2254F455F00D43DAC /* LinkedList.swift in Sources */,
 				C736E16925448FB700FB46CE /* EggDrop.swift in Sources */,
-				B94AC6AA27DD059D002AED63 /* ReachableVertexTests.swift in Sources */,
+				B978D1A727EA110F003C54FC /* MonotonicSP.swift in Sources */,
 				B94AC6B127E3DBAD002AED63 /* IsEdgeInMST.swift in Sources */,
 				C7D984D0254C725D00D43DAC /* MergeSmallerAuxArray.swift in Sources */,
 				C7D984F8254F757400D43DAC /* ShuffleLinkedList.swift in Sources */,
@@ -867,7 +908,7 @@
 				C7BD41B62534B2A500E43F96 /* StackMax.swift in Sources */,
 				C7D984EB254DBDF100D43DAC /* MergeSortLinkedList.swift in Sources */,
 				C757DB482596BD420023D28D /* DynamicMedian.swift in Sources */,
-				B94AC6BB27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift in Sources */,
+				B978D1AD27EA52A8003C54FC /* SecondSP.swift in Sources */,
 				C784954A259F8B0300440274 /* CheckBST.swift in Sources */,
 				C70594AC25D822FB00748876 /* DocumentSearch.swift in Sources */,
 				C7BD44A7253C724E00E43F96 /* BitonicArray.swift in Sources */,
@@ -877,7 +918,6 @@
 				C74F26E6252B73B400AFCFF1 /* SuccessorWithDelete.swift in Sources */,
 				B94AC6A227DCCE93002AED63 /* DAGHamiltonianPath.swift in Sources */,
 				C74F26D22528DD5A00AFCFF1 /* SNCTimestamp.swift in Sources */,
-				B94AC6B527E3F43E002AED63 /* IsEdgeInMSTTests.swift in Sources */,
 				C732CD5C2598E5C50080C9A7 /* TaxicabNumbers.swift in Sources */,
 				B94AC69027D4CA5C002AED63 /* GraphDiameter.swift in Sources */,
 				C74B4C262558526900F0F135 /* NutsAndBolts.swift in Sources */,
@@ -1054,6 +1094,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJC82SNCFP;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1065,6 +1106,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VJC82SNCFP;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

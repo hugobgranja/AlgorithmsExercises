@@ -26,7 +26,7 @@ class IsEdgeInMST {
         while let vertex = stack.pop() {
             marked[vertex] = true
             
-            for someEdge in graph.adjacent(to: vertex) where someEdge.weight < edge.weight {
+            for someEdge in graph.adjacentEdges(to: vertex) where someEdge.weight < edge.weight {
                 if let other = someEdge.other(vertex: vertex), !marked[other] {
                     stack.push(other)
                 }

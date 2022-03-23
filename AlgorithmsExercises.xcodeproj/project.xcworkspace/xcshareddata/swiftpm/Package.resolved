@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "SwiftAlgorithms",
-        "repositoryURL": "https://github.com/hugobgranja/SwiftAlgorithms",
-        "state": {
-          "branch": "main",
-          "revision": "bc9d8b81e79a182c31e23d79aab2260e53ba4899",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "swiftalgorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hugobgranja/SwiftAlgorithms",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c5a483233c36de5939b11888fd037cd67168edeb"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

@@ -26,7 +26,7 @@ final class BSTInorderConstantSpaceTests: XCTestCase {
     }
     
     func test() {
-        addTestValues()
+        addTestData()
         
         let expectation = ["Zero","Two","Four","Five","Ten","Twelve"]
         
@@ -40,7 +40,7 @@ final class BSTInorderConstantSpaceTests: XCTestCase {
 
 extension BSTInorderConstantSpaceTests {
     
-    private func addTestValues() {
+    private func addTestData() {
         bst.put(key: 5, value: "Five")
         bst.put(key: 2, value: "Two")
         bst.put(key: 10, value: "Ten")

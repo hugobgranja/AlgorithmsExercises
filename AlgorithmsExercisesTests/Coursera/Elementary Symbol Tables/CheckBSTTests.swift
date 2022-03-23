@@ -26,42 +26,42 @@ final class CheckBSTTests: XCTestCase {
     }
     
     func testValid() {
-        addTestValues()
+        addTestData()
         XCTAssertTrue(checkBST.isBST(bst))
     }
     
     func testInvalidLeft() {
-        addTestValues()
+        addTestData()
         bst.root?.left?.left?.key = 3
         XCTAssertFalse(checkBST.isBST(bst))
     }
     
     func testInvalidLeftRightMax() {
-        addTestValues()
+        addTestData()
         bst.root?.left?.right?.key = 6
         XCTAssertFalse(checkBST.isBST(bst))
     }
     
     func testInvalidLeftRightMin() {
-        addTestValues()
+        addTestData()
         bst.root?.left?.right?.key = 1
         XCTAssertFalse(checkBST.isBST(bst))
     }
     
     func testInvalidRightLeftMin() {
-        addTestValues()
+        addTestData()
         bst.root?.right?.left?.key = 4
         XCTAssertFalse(checkBST.isBST(bst))
     }
     
     func testInvalidRightLeftMax() {
-        addTestValues()
+        addTestData()
         bst.root?.right?.left?.key = 11
         XCTAssertFalse(checkBST.isBST(bst))
     }
     
     func testInvalidRightRight() {
-        addTestValues()
+        addTestData()
         bst.root?.right?.right?.key = 9
         XCTAssertFalse(checkBST.isBST(bst))
     }
@@ -70,7 +70,7 @@ final class CheckBSTTests: XCTestCase {
 
 extension CheckBSTTests {
     
-    private func addTestValues() {
+    private func addTestData() {
         bst.put(key: 5, value: "Five")
         bst.put(key: 2, value: "Two")
         bst.put(key: 10, value: "Ten")
