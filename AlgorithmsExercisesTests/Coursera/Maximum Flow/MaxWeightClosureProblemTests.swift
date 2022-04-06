@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import SwiftAlgorithms
 
 class MaxWeightClosureProblemTests: XCTestCase {
     
