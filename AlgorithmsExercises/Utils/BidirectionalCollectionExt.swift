@@ -17,7 +17,7 @@ extension BidirectionalCollection where Element == Character {
     
     subscript(range: Range<Int>) -> SubSequence {
         let offsettedIndex = index(startIndex, offsetBy: range.lowerBound)
-        let endIndex = index(startIndex, offsetBy: range.count)
+        let endIndex = index(offsettedIndex, offsetBy: range.count)
         return self[offsettedIndex..<endIndex]
     }
     
