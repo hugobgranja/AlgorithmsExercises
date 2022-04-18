@@ -85,7 +85,6 @@
 		B978D21F280455B9003C54FC /* ManacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D21D280455B9003C54FC /* ManacherTests.swift */; };
 		B978D2222805AEEA003C54FC /* ChallengingRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D2212805AEEA003C54FC /* ChallengingRegex.swift */; };
 		B978D2232805AEEA003C54FC /* ChallengingRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D2212805AEEA003C54FC /* ChallengingRegex.swift */; };
-		B978D22628081D36003C54FC /* ChallengingRegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D22528081D36003C54FC /* ChallengingRegexTests.swift */; };
 		B978D22728081D36003C54FC /* ChallengingRegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D22528081D36003C54FC /* ChallengingRegexTests.swift */; };
 		B9FE29DC27BC7FAD007D5806 /* IsStringUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE29DB27BC7FAD007D5806 /* IsStringUnique.swift */; };
 		B9FE29E027BD73EF007D5806 /* IsStringUniqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE29DF27BD73EF007D5806 /* IsStringUniqueTests.swift */; };
@@ -1128,7 +1127,6 @@
 				B978D1DA27F63D6B003C54FC /* AmericanFlagSort.swift in Sources */,
 				B978D1A727EA110F003C54FC /* MonotonicSP.swift in Sources */,
 				B978D21828040F7C003C54FC /* BidirectionalCollectionExt.swift in Sources */,
-				B978D22628081D36003C54FC /* ChallengingRegexTests.swift in Sources */,
 				B94AC6B127E3DBAD002AED63 /* IsEdgeInMST.swift in Sources */,
 				C7D984D0254C725D00D43DAC /* MergeSmallerAuxArray.swift in Sources */,
 				C7D984F8254F757400D43DAC /* ShuffleLinkedList.swift in Sources */,
