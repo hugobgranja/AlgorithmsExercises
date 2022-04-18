@@ -12,12 +12,12 @@ class BinaryTrieSet {
     private var root: Node
     var count: Int
     
-    public init() {
+    init() {
         self.root = Node(isMember: false)
         self.count = 0
     }
     
-    public func insert(_ newMember: String) {
+    func insert(_ newMember: String) {
         var node = root
         var index = 0
         
@@ -54,7 +54,7 @@ class BinaryTrieSet {
         }
     }
     
-    public func longestPrefix(of member: String) -> String? {
+    func longestPrefix(of member: String) -> String? {
         var longest: Substring?
         var node = root
         var index = 0
@@ -75,10 +75,10 @@ class BinaryTrieSet {
 
 extension BinaryTrieSet {
     
-    public class Node {
+    class Node {
         
-        public var next: [Node?]
-        public var isMember: Bool
+        var next: [Node?]
+        var isMember: Bool
         
         fileprivate init(isMember: Bool) {
             self.next = [Node?](repeating: nil, count: 2)
