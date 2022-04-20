@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B92956632808984800C64477 /* ExponentialSizeDFA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92956622808984800C64477 /* ExponentialSizeDFA.swift */; };
 		B92956642808984800C64477 /* ExponentialSizeDFA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92956622808984800C64477 /* ExponentialSizeDFA.swift */; };
+		B9295667280EE3C900C64477 /* TernaryHuffman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9295666280EE3C900C64477 /* TernaryHuffman.swift */; };
+		B929566A280EECB000C64477 /* TernaryHuffmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9295669280EECB000C64477 /* TernaryHuffmanTests.swift */; };
+		B929566B280EECB400C64477 /* TernaryHuffman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9295666280EE3C900C64477 /* TernaryHuffman.swift */; };
+		B929566D280EF61400C64477 /* Q2Codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B929566C280EF61400C64477 /* Q2Codes.swift */; };
 		B94AC69027D4CA5C002AED63 /* GraphDiameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC68F27D4CA5C002AED63 /* GraphDiameter.swift */; };
 		B94AC69227D4DE37002AED63 /* GraphDiameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC68F27D4CA5C002AED63 /* GraphDiameter.swift */; };
 		B94AC69427D4DE45002AED63 /* GraphDiameterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC69327D4DE45002AED63 /* GraphDiameterTests.swift */; };
@@ -32,6 +36,9 @@
 		B94AC6B827E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B727E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift */; };
 		B94AC6B927E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6B727E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift */; };
 		B94AC6BC27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AC6BA27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift */; };
+		B972A5382810A7DB008DBC62 /* MoveToFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972A5372810A7DB008DBC62 /* MoveToFront.swift */; };
+		B972A53A2810A7F5008DBC62 /* MoveToFrontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972A5392810A7F5008DBC62 /* MoveToFrontTests.swift */; };
+		B972A53B2810A820008DBC62 /* MoveToFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972A5372810A7DB008DBC62 /* MoveToFront.swift */; };
 		B978D1A727EA110F003C54FC /* MonotonicSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1A627EA110F003C54FC /* MonotonicSP.swift */; };
 		B978D1A827EA13E8003C54FC /* MonotonicSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1A627EA110F003C54FC /* MonotonicSP.swift */; };
 		B978D1AB27EA1585003C54FC /* MonotonicSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D1AA27EA1585003C54FC /* MonotonicSPTests.swift */; };
@@ -192,6 +199,9 @@
 
 /* Begin PBXFileReference section */
 		B92956622808984800C64477 /* ExponentialSizeDFA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponentialSizeDFA.swift; sourceTree = "<group>"; };
+		B9295666280EE3C900C64477 /* TernaryHuffman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryHuffman.swift; sourceTree = "<group>"; };
+		B9295669280EECB000C64477 /* TernaryHuffmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryHuffmanTests.swift; sourceTree = "<group>"; };
+		B929566C280EF61400C64477 /* Q2Codes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2Codes.swift; sourceTree = "<group>"; };
 		B94AC68F27D4CA5C002AED63 /* GraphDiameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDiameter.swift; sourceTree = "<group>"; };
 		B94AC69327D4DE45002AED63 /* GraphDiameterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDiameterTests.swift; sourceTree = "<group>"; };
 		B94AC69527D4E01C002AED63 /* GraphCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCenter.swift; sourceTree = "<group>"; };
@@ -207,6 +217,8 @@
 		B94AC6B427E3F43E002AED63 /* IsEdgeInMSTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsEdgeInMSTTests.swift; sourceTree = "<group>"; };
 		B94AC6B727E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinWeightFeedbackEdgeSet.swift; sourceTree = "<group>"; };
 		B94AC6BA27E41E52002AED63 /* MinWeightFeedbackEdgeSetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinWeightFeedbackEdgeSetTests.swift; sourceTree = "<group>"; };
+		B972A5372810A7DB008DBC62 /* MoveToFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToFront.swift; sourceTree = "<group>"; };
+		B972A5392810A7F5008DBC62 /* MoveToFrontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToFrontTests.swift; sourceTree = "<group>"; };
 		B978D1A627EA110F003C54FC /* MonotonicSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicSP.swift; sourceTree = "<group>"; };
 		B978D1AA27EA1585003C54FC /* MonotonicSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicSPTests.swift; sourceTree = "<group>"; };
 		B978D1AC27EA52A8003C54FC /* SecondSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSP.swift; sourceTree = "<group>"; };
@@ -327,6 +339,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9295665280EE3C000C64477 /* Data Compression */ = {
+			isa = PBXGroup;
+			children = (
+				B9295666280EE3C900C64477 /* TernaryHuffman.swift */,
+				B929566C280EF61400C64477 /* Q2Codes.swift */,
+				B972A5372810A7DB008DBC62 /* MoveToFront.swift */,
+			);
+			path = "Data Compression";
+			sourceTree = "<group>";
+		};
+		B9295668280EEC9900C64477 /* Data Compression */ = {
+			isa = PBXGroup;
+			children = (
+				B9295669280EECB000C64477 /* TernaryHuffmanTests.swift */,
+				B972A5392810A7F5008DBC62 /* MoveToFrontTests.swift */,
+			);
+			path = "Data Compression";
+			sourceTree = "<group>";
+		};
 		B94AC68E27D4CA46002AED63 /* Undirected Graphs */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +546,7 @@
 			children = (
 				C7BD4495253B947100E43F96 /* Analysis of Algorithms */,
 				C70594AA25D822DC00748876 /* Balanced Search Trees */,
+				B9295665280EE3C000C64477 /* Data Compression */,
 				B94AC69A27DBEA4D002AED63 /* Directed Graphs */,
 				C7BD446B253B55AD00E43F96 /* Elementary Sorts */,
 				C7849548259F8AF500440274 /* Elementary Symbol Tables */,
@@ -541,6 +573,7 @@
 			children = (
 				C7BD449E253C676200E43F96 /* Analysis of Algorithms */,
 				C72C0B5E25E1DD48008CD181 /* Balanced Search Trees */,
+				B9295668280EEC9900C64477 /* Data Compression */,
 				B94AC69B27DBEA59002AED63 /* Directed Graphs */,
 				C7BD4473253B5E8900E43F96 /* Elementary Sorts */,
 				C784954F259F912100440274 /* Elementary Symbol Tables */,
@@ -999,12 +1032,15 @@
 				C757DB4D2597A38E0023D28D /* DynamicMedian.swift in Sources */,
 				C745FDB72577E6B900A6251D /* SelectionTwoSortedArraysV2Tests.swift in Sources */,
 				B94AC69427D4DE45002AED63 /* GraphDiameterTests.swift in Sources */,
+				B972A53A2810A7F5008DBC62 /* MoveToFrontTests.swift in Sources */,
 				B94AC69227D4DE37002AED63 /* GraphDiameter.swift in Sources */,
 				C757DB512597AFBE0023D28D /* DynamicMedianTests.swift in Sources */,
 				B978D1C127F379D5003C54FC /* PerfectMatchingsTests.swift in Sources */,
 				C732CD55259828B40080C9A7 /* RandomizedPriorityQueueTests.swift in Sources */,
+				B929566A280EECB000C64477 /* TernaryHuffmanTests.swift in Sources */,
 				C7D984D8254CCA1200D43DAC /* SmallerAuxArrayTests.swift in Sources */,
 				B978D1F927FE9B46003C54FC /* CyclicRotationsSearchTests.swift in Sources */,
+				B972A53B2810A820008DBC62 /* MoveToFront.swift in Sources */,
 				B94AC6A327DCCE97002AED63 /* DAGHamiltonianPath.swift in Sources */,
 				C7BD42232534E08400E43F96 /* SocialNetworkConnectivity.swift in Sources */,
 				C74B4C102553339D00F0F135 /* LinkedList.swift in Sources */,
@@ -1098,6 +1134,7 @@
 				B9FE29EC27BDB2D3007D5806 /* LinkedListTests.swift in Sources */,
 				B978D20127FEAB3D003C54FC /* TandemRepeatTests.swift in Sources */,
 				B978D1B427EBBBD7003C54FC /* SkippableEdgeSPTests.swift in Sources */,
+				B929566B280EECB400C64477 /* TernaryHuffman.swift in Sources */,
 				C745FD432575531C00A6251D /* SelectionTwoSortedArraysV1Tests.swift in Sources */,
 				B94AC6AF27E3B2E9002AED63 /* BottleneckMST.swift in Sources */,
 				B978D1BD27F3603F003C54FC /* FattestPath.swift in Sources */,
@@ -1137,6 +1174,7 @@
 				B94AC69D27DBEA69002AED63 /* ShortestDirectedCycle.swift in Sources */,
 				B9FE29DC27BC7FAD007D5806 /* IsStringUnique.swift in Sources */,
 				C7BD448B253B74D100E43F96 /* DutchNationalFlag.swift in Sources */,
+				B929566D280EF61400C64477 /* Q2Codes.swift in Sources */,
 				B978D1EC27FBC12C003C54FC /* BinaryTrieSet.swift in Sources */,
 				C784955A259F954300440274 /* BSTInorderConstantSpace.swift in Sources */,
 				C751C25225FE634600260CDB /* FourSum.swift in Sources */,
@@ -1147,10 +1185,12 @@
 				C7BD41B62534B2A500E43F96 /* StackMax.swift in Sources */,
 				C7D984EB254DBDF100D43DAC /* MergeSortLinkedList.swift in Sources */,
 				C757DB482596BD420023D28D /* DynamicMedian.swift in Sources */,
+				B972A5382810A7DB008DBC62 /* MoveToFront.swift in Sources */,
 				B978D1AD27EA52A8003C54FC /* SecondSP.swift in Sources */,
 				B978D1E627FB6A48003C54FC /* PrefixFreeCodes.swift in Sources */,
 				B978D1B827F35890003C54FC /* FattestPath.swift in Sources */,
 				C784954A259F8B0300440274 /* CheckBST.swift in Sources */,
+				B9295667280EE3C900C64477 /* TernaryHuffman.swift in Sources */,
 				C70594AC25D822FB00748876 /* DocumentSearch.swift in Sources */,
 				C7BD44A7253C724E00E43F96 /* BitonicArray.swift in Sources */,
 				B94AC6B827E4168C002AED63 /* MinWeightFeedbackEdgeSet.swift in Sources */,
