@@ -40,6 +40,11 @@ class LinkedList<T> {
         append(node)
     }
     
+    func prepend(_ element: T) {
+        let node = Node(element, next: firstNode)
+        firstNode = node
+    }
+    
     func append(_ node: Node<T>) {
         let oldLast = lastNode
         lastNode = node

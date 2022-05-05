@@ -16,12 +16,12 @@ class SocialNetworkConnectivity {
     
     let members: Int
     let logs: [SNCTimestamp]
-    let unionFind: WeightedQuickUnionUF
+    let unionFind: WQURankUF
     
     init(members: Int, logs: [SNCTimestamp]) {
         self.members = members
         self.logs = logs
-        self.unionFind = WeightedQuickUnionUF(length: members)
+        self.unionFind = WQURankUF(length: members)
     }
     
     func earliestAllConnected() -> String? {

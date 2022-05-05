@@ -20,7 +20,7 @@ class MinWeightFeedbackEdgeSet {
     // Uses modified Kruskal's Algorithm.
     func minWeightFeedbackEdgeSet(graph: EdgeWeightedGraph) -> [WeightedEdge] {
         let sortedEdges = graph.getEdges().sorted(by: >)
-        let uf = WeightedQuickUnionUF(length: graph.vertexCount())
+        let uf = WQURankUF(length: graph.vertexCount())
         var fes = [WeightedEdge]()
         
         for edge in sortedEdges {
