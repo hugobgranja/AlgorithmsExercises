@@ -13,12 +13,12 @@ import Foundation
 
 class DigitTreeSum {
     
-    func solve(t: Tree<Int>?) -> Int64 {
+    func solve(t: TreeNode?) -> Int64 {
         guard let root = t else { return 0 }
         return solve(t: root, number: Int64(root.value))
     }
     
-    private func solve(t: Tree<Int>, number: Int64) -> Int64 {
+    private func solve(t: TreeNode, number: Int64) -> Int64 {
         var sum: Int64?
         
         if let leftNode = t.left {

@@ -11,11 +11,11 @@ import Foundation
 
 class IsTreeSymmetric {
     
-    func solve(t: Tree<Int>?) -> Bool {
+    func solve(t: TreeNode?) -> Bool {
         return isEqual(left: t?.left, right: t?.right)
     }
     
-    private func isEqual(left: Tree<Int>?, right: Tree<Int>?) -> Bool {
+    private func isEqual(left: TreeNode?, right: TreeNode?) -> Bool {
         if left == nil && right == nil { return true }
         return left?.value == right?.value &&
             isEqual(left: left?.left, right: right?.right) &&

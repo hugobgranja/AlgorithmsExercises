@@ -8,7 +8,7 @@
 //  Given a connected graph with no cycles design a linear-time algorithm to find the longest simple path in the graph.
 //
 //  If we run BFS from any node x and find a node with the longest distance from x, x is an endpoint of the longest path.
-//  Running a second BFS from this endpoint and find the longest distance from it should give us the second endpoint.
+//  Running a second BFS from this endpoint and finding the longest distance from it should give us the second endpoint.
 //  The longest path is the path connecting both endpoints.
 //
 

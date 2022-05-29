@@ -9,7 +9,7 @@ import Foundation
 
 class DeleteFromBST {
     
-    func solve(t: Tree<Int>?, queries: [Int]) -> Tree<Int>? {
+    func solve(t: TreeNode?, queries: [Int]) -> TreeNode? {
         var root = t
                 
         for key in queries {
@@ -19,7 +19,7 @@ class DeleteFromBST {
         return root
     }
 
-    private func delete(key: Int, node: Tree<Int>?) -> Tree<Int>? {
+    private func delete(key: Int, node: TreeNode?) -> TreeNode? {
         guard var someNode = node else { return nil }
         if key < someNode.value { someNode.left = delete(key: key, node: someNode.left) }
         else if key > someNode.value { someNode.right = delete(key: key, node: someNode.right) }
@@ -38,13 +38,13 @@ class DeleteFromBST {
         return someNode
     }
 
-    private func max(node: Tree<Int>) -> Tree<Int> {
+    private func max(node: TreeNode) -> TreeNode {
         var node = node
         while let someNode = node.right { node = someNode }
         return node
     }
 
-    private func deleteMax(node: Tree<Int>?) -> Tree<Int>? {
+    private func deleteMax(node: TreeNode?) -> TreeNode? {
         guard let someNode = node else { return nil }
         if someNode.right == nil { return someNode.left }
         someNode.right = deleteMax(node: someNode.right)

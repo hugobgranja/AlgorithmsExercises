@@ -75,6 +75,12 @@ final class StackMaxTests: XCTestCase {
         stack.push(3)
         XCTAssertEqual(stack.maximum(), 3)
         
+        stack.push(1)
+        XCTAssertEqual(stack.maximum(), 3)
+        
+        _ = stack.pop()
+        XCTAssertEqual(stack.maximum(), 3)
+        
         _ = stack.pop()
         XCTAssertEqual(stack.maximum(), 2)
         

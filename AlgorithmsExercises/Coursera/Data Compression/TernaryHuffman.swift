@@ -27,12 +27,12 @@ class TernaryHuffman {
         let builder = encodeTrie(node: root)
         builder.append(Int64(string.count))
         
-        for i in 0..<string.count {
-            let asciiValue = Int(string.asciiValue(at: i)!)
+        for char in string {
+            let asciiValue = Int(char.asciiValue!)
             let code = codeTable[asciiValue]
             
-            for j in 0..<code.count {
-                switch code[j] {
+            for char in code {
+                switch char {
                 case "0":
                     builder.append(0, bitWidth: 2)
                     

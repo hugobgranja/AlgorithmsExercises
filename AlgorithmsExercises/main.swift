@@ -7,3 +7,6 @@
 
 import Foundation
 
+let sut = SquaresSortedArray()
+let sol = sut.solve([-4,-1,0,3,10])
+print(sol)

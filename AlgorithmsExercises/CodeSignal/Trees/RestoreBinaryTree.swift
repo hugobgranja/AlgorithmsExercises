@@ -12,16 +12,16 @@ import Foundation
 
 class RestoreBinaryTree {
     
-    func solve(inorder: [Int], preorder: [Int]) -> Tree<Int>? {
+    func solve(inorder: [Int], preorder: [Int]) -> TreeNode? {
         let map = inorder.enumerated().reduce(into: [Int: Int]()) { $0[$1.element] = $1.offset }
         return buildTree(map: map, preorder: preorder, index: 0, start: 0, size: preorder.count)
     }
     
-    private func buildTree(map: [Int: Int], preorder: [Int], index: Int, start: Int, size: Int) -> Tree<Int>? {
+    private func buildTree(map: [Int: Int], preorder: [Int], index: Int, start: Int, size: Int) -> TreeNode? {
         guard size > 0 else { return nil }
         
         let nodeValue = preorder[index]
-        let node = Tree<Int>(nodeValue)
+        let node = TreeNode(nodeValue)
         
         if size == 1 { return node }
         

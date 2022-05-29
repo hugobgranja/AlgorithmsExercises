@@ -13,7 +13,7 @@ import Foundation
 
 class IsSubtree {
     
-    func solve(t1: Tree<Int>?, t2: Tree<Int>?) -> Bool {
+    func solve(t1: TreeNode?, t2: TreeNode?) -> Bool {
         if t2 == nil { return true }
         if t1 == nil { return false }
         return isEqual(t1: t1, t2: t2) ||
@@ -21,7 +21,7 @@ class IsSubtree {
             solve(t1: t1?.right, t2: t2)
     }
 
-    private func isEqual(t1: Tree<Int>?, t2: Tree<Int>?) -> Bool {
+    private func isEqual(t1: TreeNode?, t2: TreeNode?) -> Bool {
         if t1 == nil && t2 == nil { return true }
         if t1 == nil || t2 == nil { return false }
         return t1?.value == t2?.value &&

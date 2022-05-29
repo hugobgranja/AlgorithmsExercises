@@ -11,7 +11,7 @@ import Foundation
 
 class HasPathWithGivenSum {
     
-    func solve(t: Tree<Int>?, s: Int) -> Bool {
+    func solve(t: TreeNode?, s: Int) -> Bool {
         guard let someNode = t else { return false }
             
         if someNode.left == nil && someNode.right == nil {

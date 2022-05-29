@@ -33,7 +33,13 @@ final class TwoSumTests: XCTestCase {
         XCTAssertEqual(p, 5)
     }
     
-    func test() {
+    func testLSDDistinct() {
+        var array = [3]
+        let result = sut.findWithLSD(&array, target: 6)
+        XCTAssertNil(result)
+    }
+    
+    func testMap() {
         let array = [2,12,9,5,2,0,10,-8]
         
         guard let (n, p) = sut.find(array, target: -3) else {
@@ -43,6 +49,12 @@ final class TwoSumTests: XCTestCase {
         
         XCTAssertEqual(n, 5)
         XCTAssertEqual(p, -8)
+    }
+    
+    func testMapDistinct() {
+        let array = [3]
+        let result = sut.find(array, target: 6)
+        XCTAssertNil(result)
     }
 
 }

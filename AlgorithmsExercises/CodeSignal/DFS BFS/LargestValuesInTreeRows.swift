@@ -15,13 +15,13 @@ import Foundation
 
 class LargestValuesInTreeRows {
     
-    func solve(t: Tree<Int>?) -> [Int] {
+    func solve(t: TreeNode?) -> [Int] {
         guard let root = t else { return [] }
         var nodes = [root]
         var result = [Int]()
         
         while let first = nodes.first {
-            var nextNodes = [Tree<Int>]()
+            var nextNodes = [TreeNode]()
             var maxValue = first.value
             
             for node in nodes {

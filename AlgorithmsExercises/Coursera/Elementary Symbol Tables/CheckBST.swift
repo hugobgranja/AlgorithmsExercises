@@ -21,7 +21,7 @@ class CheckBST {
         return isLeftBST && isRightBST
     }
     
-    private func isBST<Key,Value>(node: TreeNode<Key,Value>?, minKey: Key?, maxKey: Key?) -> Bool {
+    private func isBST<Key,Value>(node: BSTNode<Key,Value>?, minKey: Key?, maxKey: Key?) -> Bool {
         guard let someNode = node else { return true }
         if let minKey = minKey, someNode.key < minKey { return false }
         if let maxKey = maxKey, someNode.key > maxKey { return false }

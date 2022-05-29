@@ -34,15 +34,13 @@ class TwoSum {
         var map = [Int: Bool]()
         
         for element in array {
-            map[element] = true
-        }
-        
-        for element in array {
             let complement = target - element
             
             if map[complement, default: false] {
-                return (element, complement)
+                return (complement, element)
             }
+            
+            map[element] = true
         }
         
         return nil

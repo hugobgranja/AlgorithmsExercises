@@ -55,12 +55,10 @@ class WordBoggle {
             (x - 1, y),                 (x + 1, y),
             (x - 1, y + 1), (x, y + 1), (x + 1, y + 1)
         ]
-            .filter {
-                $0.0 >= 0 &&
-                $0.0 < board.count &&
-                $0.1 >= 0 &&
-                $0.1 < board[0].count &&
-                !($0.0 == ex?.0 && $0.1 == ex?.1)
+            .filter { x, y in
+                x >= 0 && x < board.count &&
+                y >= 0 && y < board[0].count &&
+                !(x == ex?.0 && y == ex?.1)
             }
     }
     

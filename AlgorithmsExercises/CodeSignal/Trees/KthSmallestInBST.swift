@@ -18,9 +18,9 @@ import Foundation
 class KthSmallestInBST {
     
     // Morris inorder traversal
-    func solve(t: Tree<Int>?, k: Int) -> Int? {
+    func solve(t: TreeNode?, k: Int) -> Int? {
         var currentNode = t
-        var prevNode: Tree<Int>?
+        var prevNode: TreeNode?
         var rank = 0
   
         while let someNode = currentNode {

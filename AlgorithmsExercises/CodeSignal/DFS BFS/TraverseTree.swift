@@ -15,7 +15,7 @@ import Foundation
 
 class TraverseTree {
     
-    func solve(t: Tree<Int>?) -> [Int] {
+    func solve(t: TreeNode?) -> [Int] {
         guard let root = t else { return [] }
         var queue = [root]
         var result = [Int]()
