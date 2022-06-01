@@ -19,10 +19,9 @@ class ThreeSum {
         let sort = ShellSort()
         sort.sort(&a)
         
-        let count = a.count
-        for i in 0..<count - 2 {
+        for i in a.indices.dropLast(2) {
             var j = i + 1
-            var k = count - 1
+            var k = a.count - 1
             
             while j < k {
                 let currentSum = a[i] + a[j] + a[k]

@@ -66,6 +66,18 @@ final class CheckBSTTests: XCTestCase {
         XCTAssertFalse(checkBST.isBST(bst))
     }
     
+    func testRepeatedLeft() {
+        addTestData()
+        bst.root?.left?.key = 5
+        XCTAssertFalse(checkBST.isBST(bst))
+    }
+    
+    func testRepeatedRight() {
+        addTestData()
+        bst.root?.right?.key = 5
+        XCTAssertFalse(checkBST.isBST(bst))
+    }
+    
 }
 
 extension CheckBSTTests {

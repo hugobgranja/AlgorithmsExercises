@@ -23,8 +23,8 @@ class CheckBST {
     
     private func isBST<Key,Value>(node: BSTNode<Key,Value>?, minKey: Key?, maxKey: Key?) -> Bool {
         guard let someNode = node else { return true }
-        if let minKey = minKey, someNode.key < minKey { return false }
-        if let maxKey = maxKey, someNode.key > maxKey { return false }
+        if let minKey = minKey, someNode.key <= minKey { return false }
+        if let maxKey = maxKey, someNode.key >= maxKey { return false }
         let isLeftBST = isBST(node: node?.left, minKey: minKey, maxKey: someNode.key)
         let isRightBST = isBST(node: node?.right, minKey: someNode.key, maxKey: maxKey)
         return isLeftBST && isRightBST

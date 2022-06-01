@@ -7,6 +7,6 @@
 
 import Foundation
 
-let sut = SquaresSortedArray()
-let sol = sut.solve([-4,-1,0,3,10])
+let sut = NumberOfIslands()
+let sol = sut.solve([["1","1","1"],["0","1","0"],["1","1","1"]])
 print(sol)

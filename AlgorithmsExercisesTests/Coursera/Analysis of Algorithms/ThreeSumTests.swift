@@ -22,7 +22,7 @@ final class ThreeSumTests: XCTestCase {
     }
     
     func test() {
-        let a = [2,5,7,8,9,1,2,0]
+        let a = [10,2,5,7,8,9,1,2,0]
         
         guard let (n, o, p) = threeSum.find(a, sum: 14) else {
             XCTFail()
