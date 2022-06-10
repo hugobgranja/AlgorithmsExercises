@@ -1,7 +1,6 @@
 //
 //  ProductExceptSelf.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 22/05/2022.
 //
 //  You have an array nums.

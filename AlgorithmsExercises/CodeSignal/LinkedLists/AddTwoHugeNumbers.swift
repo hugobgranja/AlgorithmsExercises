@@ -1,7 +1,6 @@
 //
 //  AddTwoHugeNumbers.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 01/05/2022.
 //
 //  You're given 2 huge integers represented by linked lists.

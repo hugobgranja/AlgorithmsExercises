@@ -1,7 +1,6 @@
 //
 //  FirstDuplicate.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 26/04/2022.
 //
 //  Given an array a that contains only numbers in the range from 1 to a.length,

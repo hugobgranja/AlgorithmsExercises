@@ -1,7 +1,6 @@
 //
 //  SwapLexOrder.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 04/05/2022.
 //
 //  Given a string str and array of pairs that indicates which indices in the string can be swapped, return the lexicographically largest string that results from doing the allowed swaps.

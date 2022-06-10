@@ -1,7 +1,6 @@
 //
 //  CombinationSum.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 19/05/2022.
 //
 //  Given an array of integers a and an integer sum, find all of the unique combinations in a that add up to sum.

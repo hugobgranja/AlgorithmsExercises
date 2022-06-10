@@ -1,7 +1,6 @@
 //
 //  NQueens.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 18/05/2022.
 //
 //  In chess, queens can move any number of squares vertically, horizontally, or diagonally.

@@ -1,7 +1,6 @@
 //
 //  GraphNode.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 31/05/2022.
 //
 

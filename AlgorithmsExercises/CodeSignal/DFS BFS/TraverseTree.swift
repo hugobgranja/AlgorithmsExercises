@@ -1,7 +1,6 @@
 //
 //  TraverseTree.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 17/05/2022.
 //
 //  Given a binary tree of integers t, return its node values in the following format:
@@ -22,7 +21,7 @@ class TraverseTree {
         
         while !queue.isEmpty {
             let node = queue.removeFirst()
-            result.append(node.value)
+            result.append(node.val)
             if let leftNode = node.left { queue.append(leftNode) }
             if let rightNode = node.right { queue.append(rightNode) }
         }

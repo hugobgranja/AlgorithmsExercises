@@ -1,7 +1,6 @@
 //
 //  SumSubsets.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 19/05/2022.
 //
 //  Given a sorted array of integers arr and an integer num, find all possible unique subsets of arr that add up to num.

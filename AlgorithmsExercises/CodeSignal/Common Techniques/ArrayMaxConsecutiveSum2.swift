@@ -1,7 +1,6 @@
 //
 //  ArrayMaxConsecutiveSum2.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 22/05/2022.
 //
 //  Given an array of integers, find the maximum possible sum you can get from one of its contiguous subarrays.

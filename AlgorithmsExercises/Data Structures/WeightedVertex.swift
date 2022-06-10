@@ -1,7 +1,6 @@
 //
 //  WeightedVertex.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 30/03/2022.
 //
 

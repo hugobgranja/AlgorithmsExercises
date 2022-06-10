@@ -1,7 +1,6 @@
 //
 //  SumInRange.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 22/05/2022.
 //
 //  You have an array of integers nums and an array queries, where queries[i] is a pair of indices (0-based).

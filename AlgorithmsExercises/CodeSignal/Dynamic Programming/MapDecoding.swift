@@ -1,10 +1,10 @@
 //
 //  MapDecoding.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 20/05/2022.
 //
-//  Decode ways
+//  |Decode Ways|
+//  |String|Dynamic Programming|
 //  A message containing uppercase letters from 'A' to 'Z' has been encoded as numbers using the following mapping:
 //  'A' -> 1 'B' -> 2 ... 'Z' -> 26
 //  Determine the total number of ways that the message can be decoded.
@@ -14,7 +14,6 @@
 //  For message = "123", the output should be
 //  solution(message) = 3.
 //  "123" can be decoded as "ABC" (1 2 3), "LC" (12 3) or "AW" (1 23), so the total number of ways is 3.
-//  https://www.youtube.com/watch?v=W4rYz-kd-cY
 //
 
 import Foundation

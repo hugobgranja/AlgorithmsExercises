@@ -1,7 +1,6 @@
 //
 //  LargestValuesInTreeRows.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 17/05/2022.
 //
 //  You have a binary tree t.
@@ -22,10 +21,10 @@ class LargestValuesInTreeRows {
         
         while let first = nodes.first {
             var nextNodes = [TreeNode]()
-            var maxValue = first.value
+            var maxValue = first.val
             
             for node in nodes {
-                if node.value > maxValue { maxValue = node.value }
+                if node.val > maxValue { maxValue = node.val }
                 if let leftNode = node.left { nextNodes.append(leftNode) }
                 if let rightNode = node.right { nextNodes.append(rightNode) }
             }

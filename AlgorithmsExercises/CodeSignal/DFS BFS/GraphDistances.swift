@@ -1,7 +1,6 @@
 //
 //  GraphDistances.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 18/05/2022.
 //
 //  You have a strongly connected directed graph that has positive weights in the adjacency matrix g.

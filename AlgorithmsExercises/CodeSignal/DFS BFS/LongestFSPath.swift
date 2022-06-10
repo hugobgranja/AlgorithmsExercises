@@ -1,7 +1,6 @@
 //
 //  LongestFSPath.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 18/05/2022.
 //
 

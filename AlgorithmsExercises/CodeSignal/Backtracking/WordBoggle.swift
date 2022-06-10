@@ -1,7 +1,6 @@
 //
 //  WordBoggle.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 19/05/2022.
 //
 //  Boggle is a popular word game in which players attempt to find words in sequences of adjacent letters on a rectangular board.
@@ -21,7 +20,9 @@ class WordBoggle {
         
         for row in board.indices {
             for col in board[row].indices {
-                result = result.union(solve(board: board, prev: nil, now: (row, col), node: trie.root, word: ""))
+                result = result.union(
+                    solve(board: board, prev: nil, now: (row, col), node: trie.root, word: "")
+                )
             }
         }
         

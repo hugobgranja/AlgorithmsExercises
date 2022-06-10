@@ -1,7 +1,6 @@
 //
 //  SumOfTwo.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 21/05/2022.
 //
 //  You have two integer arrays, a and b, and an integer target value v.

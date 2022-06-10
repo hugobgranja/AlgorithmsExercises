@@ -1,7 +1,6 @@
 //
 //  RemoveKFromList.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 29/04/2022.
 //
 //  Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value equal to k.

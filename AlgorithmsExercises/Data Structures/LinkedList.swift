@@ -1,7 +1,6 @@
 //
 //  LinkedList.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 01/11/2020.
 //
 //  Some exercises require manipulating the internals of Linked lists.

@@ -1,7 +1,6 @@
 //
 //  RearrangeLastN.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 02/05/2022.
 //
 //  Given a singly linked list of integers l and a non-negative integer n, move the last n list nodes to the beginning of the linked list.

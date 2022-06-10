@@ -1,7 +1,6 @@
 //
 //  LinkedListPartitionTests.swift
 //  AlgorithmsExercisesTests
-//
 //  Created by hg on 16/02/2022.
 //
 
@@ -26,7 +25,6 @@ final class LinkedListPartitionTests: XCTestCase {
         let k = 5
         
         sut.partition(linkedList: linkedList, k: k)
-        
         XCTAssertTrue(isPartitioned(array: linkedList.asArray(), k: k))
     }
     
@@ -35,9 +33,6 @@ final class LinkedListPartitionTests: XCTestCase {
         let k = 5
         
         let result = sut.partitionV2(linkedList: linkedList, k: k).asArray()
-        
-        print(result)
-        
         XCTAssertTrue(isPartitioned(array: result, k: k))
     }
     

@@ -1,7 +1,6 @@
 //
 //  FillingBlocks.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 21/05/2022.
 //
 //  Tiling dominoes

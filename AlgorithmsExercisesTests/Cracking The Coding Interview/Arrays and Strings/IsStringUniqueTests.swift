@@ -1,7 +1,6 @@
 //
 //  IsStringUniqueTests.swift
 //  AlgorithmsExercisesTests
-//
 //  Created by hg on 16/02/2022.
 //
 

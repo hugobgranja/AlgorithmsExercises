@@ -1,7 +1,6 @@
 //
 //  MergeTwoLinkedLists.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 01/05/2022.
 //
 //  Given two singly linked lists sorted in non-decreasing order, your task is to merge them.

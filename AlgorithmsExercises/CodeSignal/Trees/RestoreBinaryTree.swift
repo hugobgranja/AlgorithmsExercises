@@ -1,9 +1,10 @@
 //
 //  RestoreBinaryTree.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 07/05/2022.
 //
+//  |Construct Binary Tree from Preorder and Inorder Traversal|
+//  |Binary Tree|Divide and Conquer|
 //  Given the inorder and preorder traversals of a binary tree t, but not t itself, restore t and return it.
 //  Your solution should have O(inorder.length) time complexity.
 //

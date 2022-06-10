@@ -1,7 +1,6 @@
 //
 //  ComposeRanges.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 20/05/2022.
 //
 //  Given a sorted integer array that does not contain any duplicates, return a summary of the number ranges it contains.

@@ -1,7 +1,6 @@
 //
 //  KthSmallestInBST.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 07/05/2022.
 //
 //  A tree is considered a binary search tree (BST) if for each of its nodes the following is true:
@@ -26,7 +25,7 @@ class KthSmallestInBST {
         while let someNode = currentNode {
             if someNode.left == nil {
                 rank += 1
-                if rank == k { return someNode.value }
+                if rank == k { return someNode.val }
                 currentNode = someNode.right
             }
             else {
@@ -43,7 +42,7 @@ class KthSmallestInBST {
                 else {
                     prevNode?.right = nil
                     rank += 1
-                    if rank == k { return someNode.value }
+                    if rank == k { return someNode.val }
                     currentNode = currentNode?.right
                 }
             }

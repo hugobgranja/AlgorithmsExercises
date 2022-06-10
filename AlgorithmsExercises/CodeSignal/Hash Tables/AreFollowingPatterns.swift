@@ -1,7 +1,6 @@
 //
 //  AreFollowingPatterns.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 03/05/2022.
 //
 //  Given an array strings, determine whether it follows the sequence given in the patterns array.

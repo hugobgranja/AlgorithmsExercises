@@ -1,7 +1,6 @@
 //
 //  FindLongestSubarrayBySum.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 22/05/2022.
 //
 //  You have an unsorted array arr of non-negative integers and a number s.

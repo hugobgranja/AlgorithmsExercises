@@ -1,7 +1,6 @@
 //
 //  FirstNonRepeatingCharacter.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 26/04/2022.
 //
 //  Given a string s consisting of small English letters,

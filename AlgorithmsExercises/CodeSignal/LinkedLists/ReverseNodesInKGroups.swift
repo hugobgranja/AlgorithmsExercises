@@ -1,7 +1,6 @@
 //
 //  ReverseNodesInKGroups.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 02/05/2022.
 //
 //  Given a linked list l, reverse its nodes k at a time and return the modified list.
@@ -19,59 +18,6 @@ import Foundation
 
 class ReverseNodesInKGroups {
     
-    func solve(l: LinkedList<Int>, k: Int) {
-        guard k > 1 else { return }
-        let length = length(list: l)
-        let reverses = length / k
-        
-        var prev: LinkedList<Int>.Node<Int>?
-        var current = l.firstNode
-        var i = 0
-        
-        while let someNode = current, i < reverses {
-            let reversedNode = reverse(node: someNode, k: k)
-            if i == 0 { l.firstNode = reversedNode }
-            prev?.next = reversedNode
-            prev = current
-            current = someNode.next
-            i += 1
-        }
-        
-        if reverses * k == length {
-            l.lastNode = prev
-        }
-    }
-    
-    private func length(list: LinkedList<Int>) -> Int {
-        var node = list.firstNode
-        var count = 0
-        
-        while let someNode = node {
-            count += 1
-            node = someNode.next
-        }
-        
-        return count
-    }
-    
-    private func reverse(node: LinkedList<Int>.Node<Int>, k: Int) -> LinkedList<Int>.Node<Int> {
-        var prev = node
-        var current = node.next
-        var i = 1
-        
-        prev.next = nil
-        
-        while let someNode = current, i < k {
-            let temp = someNode.next
-            someNode.next = prev
-            prev = someNode
-            current = temp
-            i += 1
-        }
-        
-        node.next = current
-        
-        return prev
-    }
+    // Duplicate - See ReverseNodesInKGroup.swift
     
 }

@@ -1,7 +1,6 @@
 //
 //  FindSubstrings.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 10/05/2022.
 //
 //  You have two arrays of strings, words and parts.

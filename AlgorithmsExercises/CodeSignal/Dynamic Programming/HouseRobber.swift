@@ -1,9 +1,10 @@
 //
 //  HouseRobber.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 20/05/2022.
 //
+//  |House Robber|
+//  |Dynamic Programming|
 //  You are planning to rob houses on a specific street, and you know that every house on the street has a certain amount of money hidden.
 //  The only thing stopping you from robbing all of them in one night is that adjacent houses on the street have a connected security system.
 //  The system will automatically trigger an alarm if two adjacent houses are broken into on the same night.

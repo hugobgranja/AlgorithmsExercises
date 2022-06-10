@@ -1,9 +1,10 @@
 //
 //  IsListPalindrome.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 29/04/2022.
 //
+//  |Palindrome Linked List|
+//  |Linked List|Two Pointers|
 //  Given a singly linked list of integers, determine whether or not it's a palindrome.
 //  Solve this task in O(n) time using O(1) additional space, where n is the number of elements in l.
 //

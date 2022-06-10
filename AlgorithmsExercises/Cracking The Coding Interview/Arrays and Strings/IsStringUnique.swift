@@ -1,7 +1,6 @@
 //
 //  IsStringUnique.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 16/02/2022.
 //
 //  Implement an algorithm to determine if a string has all unique characters.

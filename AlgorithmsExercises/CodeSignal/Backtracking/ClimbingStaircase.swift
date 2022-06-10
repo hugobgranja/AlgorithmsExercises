@@ -1,7 +1,6 @@
 //
 //  ClimbingStaircase.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 18/05/2022.
 //
 //  You need to climb a staircase that has n steps, and you decide to get some extra exercise by jumping up the steps.

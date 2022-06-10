@@ -1,7 +1,6 @@
 //
 //  GroupingDishes.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 02/05/2022.
 //
 //  You are given a list dishes, where each element consists of a list of strings beginning with the name of the dish, followed by all the ingredients used in preparing it.

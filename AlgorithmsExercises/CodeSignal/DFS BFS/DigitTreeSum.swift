@@ -1,7 +1,6 @@
 //
 //  DigitTreeSum.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 17/05/2022.
 //
 //  We're going to store numbers in a tree.
@@ -15,18 +14,18 @@ class DigitTreeSum {
     
     func solve(t: TreeNode?) -> Int64 {
         guard let root = t else { return 0 }
-        return solve(t: root, number: Int64(root.value))
+        return solve(t: root, number: Int64(root.val))
     }
     
     private func solve(t: TreeNode, number: Int64) -> Int64 {
         var sum: Int64?
         
         if let leftNode = t.left {
-            sum = solve(t: leftNode, number: Int64(leftNode.value) + number * 10)
+            sum = solve(t: leftNode, number: Int64(leftNode.val) + number * 10)
         }
         
         if let rightNode = t.right {
-            sum = (sum ?? 0) + solve(t: rightNode, number: Int64(rightNode.value) + number * 10)
+            sum = (sum ?? 0) + solve(t: rightNode, number: Int64(rightNode.val) + number * 10)
         }
         
         return sum ?? number

@@ -1,7 +1,6 @@
 //
 //  DeleteFromBST.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 17/05/2022.
 //
 
@@ -21,8 +20,8 @@ class DeleteFromBST {
 
     private func delete(key: Int, node: TreeNode?) -> TreeNode? {
         guard var someNode = node else { return nil }
-        if key < someNode.value { someNode.left = delete(key: key, node: someNode.left) }
-        else if key > someNode.value { someNode.right = delete(key: key, node: someNode.right) }
+        if key < someNode.val { someNode.left = delete(key: key, node: someNode.left) }
+        else if key > someNode.val { someNode.right = delete(key: key, node: someNode.right) }
         else {
             if let someLeft = someNode.left {
                 let auxNode = someNode

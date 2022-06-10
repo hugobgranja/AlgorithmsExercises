@@ -1,7 +1,6 @@
 //
 //  IsCryptSolution.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 29/04/2022.
 //
 //  A cryptarithm is a mathematical puzzle for which the goal is to find the correspondence between letters and digits, such that the given arithmetic equation consisting of letters holds true when the letters are converted to digits.

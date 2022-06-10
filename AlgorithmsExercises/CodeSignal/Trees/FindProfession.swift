@@ -1,7 +1,6 @@
 //
 //  FindProfession.swift
 //  AlgorithmsExercises
-//
 //  Created by hg on 07/05/2022.
 //
 //  Consider a special family of Engineers and Doctors. This family has the following rules:
