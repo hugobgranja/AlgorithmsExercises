@@ -14,26 +14,39 @@ import Foundation
 class LongestCommonPrefix {
     
     func solve(_ strs: [String]) -> String {
-        let charArrays = strs.map { Array($0) }
-        let minCount = charArrays.min { $0.count < $1.count }?.count ?? 0
-        var lcp = ""
-        var isEveryCharEqual = true
-        var index = 0
+        guard !strs.isEmpty else { return "" }
         
-        while isEveryCharEqual && index < minCount {
+        let charArrays = strs.map { Array($0) }
+        var isLCP = true
+        var lcp = ""
+        
+        for index in charArrays[0].indices where isLCP {
             let char = charArrays[0][index]
             
-            isEveryCharEqual = charArrays
+            isLCP = charArrays
                 .dropFirst()
-                .allSatisfy { $0[index] == char }
-            
-            if isEveryCharEqual {
-                lcp.append(char)
-                index += 1
-            }
+                .allSatisfy { index < $0.count && $0[index] == char }
+
+            if isLCP { lcp.append(char) }
         }
         
         return lcp
+    }
+    
+    func solve2(_ strs: [String]) -> String {
+        guard !strs.isEmpty else { return "" }
+        
+        let charArray = strs.map { Array($0) }
+        
+        for i in charArray[0].indices {
+            for j in charArray.indices.dropFirst() {
+                if i == charArray[j].count || charArray[j][i] != charArray[0][i] {
+                    return String(charArray[0].prefix(i))
+                }
+            }
+        }
+        
+        return strs[0]
     }
     
 }

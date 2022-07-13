@@ -18,19 +18,19 @@ import Foundation
 class FloodFill {
     
     func solve(_ image: [[Int]], _ sr: Int, _ sc: Int, _ newColor: Int) -> [[Int]] {
+        guard image[sr][sc] != newColor else { return image }
+        
         let oldColor = image[sr][sc]
-        guard oldColor != newColor else { return image }
         var image = image
         var stack: [(Int, Int)] = [(sr, sc)]
         
         while let (row, col) = stack.popLast() {
-            let pixelColor = image[row][col]
+            image[row][col] = newColor
             
-            if pixelColor == oldColor {
-                image[row][col] = newColor
-                let neighbors = neighbors(of: (row, col), in: image)
-                stack.append(contentsOf: neighbors)
-            }
+            let neighbors = neighbors(of: (row, col), in: image)
+                .filter { sr, sc in image[sr][sc] == oldColor }
+            
+            stack.append(contentsOf: neighbors)
         }
         
         return image

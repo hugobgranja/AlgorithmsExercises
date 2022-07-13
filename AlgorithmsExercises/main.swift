@@ -5,3 +5,7 @@
 //
 
 import Foundation
+
+let sut = ReconstructItinerary()
+let sol = sut.findItinerary([["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]])
+print(sol)

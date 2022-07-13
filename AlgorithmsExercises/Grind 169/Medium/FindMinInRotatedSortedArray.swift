@@ -3,7 +3,7 @@
 //  AlgorithmsExercises
 //  Created by hg on 22/06/2022.
 //
-//  |Find Minimum in Rotate Sorted Array|
+//  |Find Minimum in Rotated Sorted Array|
 //  |Array|Binary Search|
 //  Suppose an array of length n sorted in ascending order is rotated between 1 and n times.
 //  For example, the array nums = [0,1,2,4,5,6,7] might become:

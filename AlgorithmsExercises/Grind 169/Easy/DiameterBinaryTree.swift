@@ -19,11 +19,11 @@ class DiameterBinaryTree {
         var res = 0
         
         func dfs(_ node: TreeNode?) -> Int {
-            guard let node = node else { return -1 }
+            guard let node = node else { return 0 }
             
             let left = dfs(node.left)
             let right = dfs(node.right)
-            res = max(res, 2 + left + right)
+            res = max(res, left + right)
             
             return 1 + max(left, right)
         }

@@ -13,8 +13,8 @@ import Foundation
 class AddBinary {
     
     func solve(_ a: String, _ b: String) -> String {
-        let a = a.reversed()
-        let b = b.reversed()
+        let a = [Character](a.reversed())
+        let b = [Character](b.reversed())
         var result = ""
         var carry = 0
         
@@ -23,24 +23,22 @@ class AddBinary {
             var numB = 0
             
             if index < a.count {
-                let indexA = a.index(a.startIndex, offsetBy: index)
-                numA = a[indexA].wholeNumberValue!
+                numA = a[index].wholeNumberValue!
             }
             
             if index < b.count {
-                let indexB = b.index(b.startIndex, offsetBy: index)
-                numB = b[indexB].wholeNumberValue!
+                numB = b[index].wholeNumberValue!
             }
             
             let sum = numA + numB + carry
             let binSum = sum % 2
             carry = sum / 2
-            result = "\(binSum)\(result)"
+            result += "\(binSum)"
         }
         
-        if carry == 1 { result = "1" + result }
+        if carry == 1 { result += "1" }
         
-        return result
+        return String(result.reversed())
     }
     
 }

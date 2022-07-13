@@ -5,7 +5,8 @@
 //
 //  |Backspace String Compare|
 //  |String|Two Pointers|
-//  Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
+//  Given two strings s and t, return true if they are equal when both are typed into empty text editors.
+//  '#' means a backspace character.
 //  Note that after backspacing an empty text, the text will continue empty.
 //
 
@@ -35,6 +36,8 @@ class BackspaceStringCompare {
     
     // O(m + n) time, O(1) space where m = s.count and n = t.count
     func solve2(_ s: String, _ t: String) -> Bool {
+        let s = [Character](s)
+        let t = [Character](t)
         var sIndex = s.count - 1
         var tIndex = t.count - 1
         var sBackspaceCount = 0
@@ -42,9 +45,7 @@ class BackspaceStringCompare {
         
         while sIndex >= 0 || tIndex >= 0 {
             while sIndex >= 0 {
-                let strIndex = s.index(s.startIndex, offsetBy: sIndex)
-                
-                if s[strIndex] == "#" {
+                if s[sIndex] == "#" {
                     sBackspaceCount += 1
                     sIndex -= 1
                 }
@@ -58,9 +59,7 @@ class BackspaceStringCompare {
             }
             
             while tIndex >= 0 {
-                let strIndex = t.index(t.startIndex, offsetBy: tIndex)
-                
-                if t[strIndex] == "#" {
+                if t[tIndex] == "#" {
                     tBackspaceCount += 1
                     tIndex -= 1
                 }
@@ -74,9 +73,7 @@ class BackspaceStringCompare {
             }
             
             if sIndex >= 0 && tIndex >= 0 {
-                let strIndexS = s.index(s.startIndex, offsetBy: sIndex)
-                let strIndexT = t.index(t.startIndex, offsetBy: tIndex)
-                if s[strIndexS] != t[strIndexT] { return false }
+                if s[sIndex] != t[tIndex] { return false }
             }
             
             if (sIndex >= 0) != (tIndex >= 0) { return false }

@@ -19,7 +19,7 @@ class RansomNote {
         
         for char in ransomNote {
             if let count = charCounts[char], count > 0 {
-                charCounts[char]! -= 1
+                charCounts[char] = count - 1
             }
             else {
                 return false
