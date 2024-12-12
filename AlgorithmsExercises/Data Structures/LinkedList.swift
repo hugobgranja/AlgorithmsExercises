@@ -11,11 +11,11 @@ import Foundation
 
 class LinkedList<T> {
     
-    class Node<T> {
-        var element: T
-        var next: Node<T>?
-        
-        init(_ element: T, next: Node<T>?) {
+    class Node<E> {
+        var element: E
+        var next: Node<E>?
+
+        init(_ element: E, next: Node<E>?) {
             self.element = element
             self.next = next
         }

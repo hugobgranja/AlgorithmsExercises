@@ -1,14 +1,15 @@
 {
+  "originHash" : "ba501c5009e6e0ac156fdee3d08d550ff45c9a0bba8607eea8c8fbdb15660758",
   "pins" : [
     {
       "identity" : "swiftalgorithms",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hugobgranja/SwiftAlgorithms",
       "state" : {
-        "branch" : "main",
-        "revision" : "199d5c9bdca2d7cda8f4c3f8ef20b9016d17070b"
+        "revision" : "5556af7edc801893b3be7467a5c7acf438e1e6be",
+        "version" : "1.0.0"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

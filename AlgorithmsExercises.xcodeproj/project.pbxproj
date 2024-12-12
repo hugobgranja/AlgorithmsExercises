@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90130842D0B695100B58463 /* SwiftAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B90130832D0B695100B58463 /* SwiftAlgorithms */; };
+		B90130862D0B697A00B58463 /* SwiftAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B90130852D0B697A00B58463 /* SwiftAlgorithms */; };
 		B90F0E172844C7A000E5CEF0 /* LongestSubstringWoutRepeatingChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0E162844C7A000E5CEF0 /* LongestSubstringWoutRepeatingChars.swift */; };
 		B90F0E192844D71400E5CEF0 /* TwoSumII.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0E182844D71400E5CEF0 /* TwoSumII.swift */; };
 		B90F0E1B2844DD5B00E5CEF0 /* ThreeSumLT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90F0E1A2844DD5B00E5CEF0 /* ThreeSumLT.swift */; };
@@ -370,8 +372,6 @@
 		C736E1272543943E00FB46CE /* EggDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736E1262543943E00FB46CE /* EggDropTests.swift */; };
 		C736E16925448FB700FB46CE /* EggDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736E16825448FB700FB46CE /* EggDrop.swift */; };
 		C736E1702544A25100FB46CE /* EggDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736E16825448FB700FB46CE /* EggDrop.swift */; };
-		C745FD352573FEED00A6251D /* SwiftAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C745FD342573FEED00A6251D /* SwiftAlgorithms */; };
-		C745FD3D2573FF2000A6251D /* SwiftAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C745FD3C2573FF2000A6251D /* SwiftAlgorithms */; };
 		C745FD432575531C00A6251D /* SelectionTwoSortedArraysV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745FD422575531C00A6251D /* SelectionTwoSortedArraysV1Tests.swift */; };
 		C745FDB72577E6B900A6251D /* SelectionTwoSortedArraysV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745FDB62577E6B900A6251D /* SelectionTwoSortedArraysV2Tests.swift */; };
 		C74B4C082553326100F0F135 /* MergeSortLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74B4C072553326100F0F135 /* MergeSortLinkedListTests.swift */; };
@@ -815,7 +815,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C745FD3D2573FF2000A6251D /* SwiftAlgorithms in Frameworks */,
+				B90130862D0B697A00B58463 /* SwiftAlgorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,7 +823,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C745FD352573FEED00A6251D /* SwiftAlgorithms in Frameworks */,
+				B90130842D0B695100B58463 /* SwiftAlgorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1856,7 +1856,7 @@
 			);
 			name = AlgorithmsExercisesTests;
 			packageProductDependencies = (
-				C745FD3C2573FF2000A6251D /* SwiftAlgorithms */,
+				B90130852D0B697A00B58463 /* SwiftAlgorithms */,
 			);
 			productName = AlgorithmsExercisesTests;
 			productReference = C7BD41FE2534CF5500E43F96 /* AlgorithmsExercisesTests.xctest */;
@@ -1876,7 +1876,7 @@
 			);
 			name = AlgorithmsExercises;
 			packageProductDependencies = (
-				C745FD342573FEED00A6251D /* SwiftAlgorithms */,
+				B90130832D0B695100B58463 /* SwiftAlgorithms */,
 			);
 			productName = UnionFindExercises;
 			productReference = C7D1AA232528D65E001578CB /* AlgorithmsExercises */;
@@ -1888,8 +1888,9 @@
 		C7D1AA1B2528D65E001578CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					C7BD41FD2534CF5500E43F96 = {
 						CreatedOnToolsVersion = 12.0;
@@ -1909,7 +1910,7 @@
 			);
 			mainGroup = C7D1AA1A2528D65E001578CB;
 			packageReferences = (
-				C745FD332573FEED00A6251D /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */,
+				B90130822D0B693B00B58463 /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */,
 			);
 			productRefGroup = C7D1AA242528D65E001578CB /* Products */;
 			projectDirPath = "";
@@ -2390,6 +2391,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.agentifai.AlgorithmsExercisesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -2410,6 +2412,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.agentifai.AlgorithmsExercisesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -2453,9 +2456,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2477,7 +2482,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -2515,9 +2520,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2532,7 +2539,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -2541,6 +2548,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VJC82SNCFP;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2553,6 +2561,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VJC82SNCFP;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2593,25 +2602,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C745FD332573FEED00A6251D /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */ = {
+		B90130822D0B693B00B58463 /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hugobgranja/SwiftAlgorithms";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C745FD342573FEED00A6251D /* SwiftAlgorithms */ = {
+		B90130832D0B695100B58463 /* SwiftAlgorithms */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C745FD332573FEED00A6251D /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */;
+			package = B90130822D0B693B00B58463 /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */;
 			productName = SwiftAlgorithms;
 		};
-		C745FD3C2573FF2000A6251D /* SwiftAlgorithms */ = {
+		B90130852D0B697A00B58463 /* SwiftAlgorithms */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C745FD332573FEED00A6251D /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */;
+			package = B90130822D0B693B00B58463 /* XCRemoteSwiftPackageReference "SwiftAlgorithms" */;
 			productName = SwiftAlgorithms;
 		};
 /* End XCSwiftPackageProductDependency section */
